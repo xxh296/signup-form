@@ -4,3 +4,19 @@
     /* DEBUG     */
     outline: 2px solid red; 
 }
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#container-left {
+    width: 33vw;
+    height: 100vh;
+    background-image: url("./images/fern.jpg");
+    background-size: 33vw 100vh;
+}
+
+#container-main {
+    width: 66vw;
+}

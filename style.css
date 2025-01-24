@@ -71,8 +71,12 @@ body {
 }
 
 #top-container {
-    padding: 2rem;
+    padding: 6vh 8vw 3vh 4vw;
     font-size: calc(1vh + 1vw);    
+}
+
+#top-container p {
+    padding: 1.25vh 0;
 }
 
 label {
@@ -89,7 +93,8 @@ label {
 }
 
 .input-container {
-    padding-left: 2rem;
+    padding-left: 4vw;
+    padding-right: 8vw;
     width: calc(50% - 10px);
     height: 4rem;
     box-sizing: border-box;
@@ -97,7 +102,8 @@ label {
 
 #bottom-container {
     height: 40vh;
-    padding: 2rem;
+    padding-top: 3vw;
+    padding-left: 4vw;
     background-color: #E5E7EB;
     font-size: calc(0.8vh + 0.8vw);
 }

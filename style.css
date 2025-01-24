@@ -85,6 +85,7 @@ label {
     display:flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    font-size: calc(0.7vh + 0.7vw);
 }
 
 .input-container {
@@ -107,6 +108,7 @@ label {
 
 input {
     width: 90%;
+    padding: 0.33rem 0.33rem;
     border-radius: 0.25rem;
     border-color: #E5E7EB;
 }
